@@ -1,4 +1,4 @@
-package ec.edu.espe.arquitectura.dummyserver.dto;
+package ec.edu.espe.arquitectura.dummyserver.dummyserver.dto;
 
 import java.util.Date;
 

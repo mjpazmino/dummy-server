@@ -1,4 +1,4 @@
-package ec.edu.espe.arquitectura.dummyserver.resource;
+package ec.edu.espe.arquitectura.dummyserver.dummyserver.resource;
 
 import java.util.Collection;
 import java.util.UUID;
@@ -11,9 +11,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import ec.edu.espe.arquitectura.dummyserver.dto.ProductDTO;
+import ec.edu.espe.arquitectura.dummyserver.dummyserver.dto.ProductDTO;
 import ec.edu.espe.arquitectura.dummyserver.dummyserver.DB;
-import ec.edu.espe.arquitectura.dummyserver.dummyserver.DummyServerApplication;
 
 @RestController
 @RequestMapping(path = "/products")

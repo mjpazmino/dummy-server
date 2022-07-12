@@ -5,7 +5,7 @@ import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
 
-import ec.edu.espe.arquitectura.dummyserver.dto.ProductDTO;
+import ec.edu.espe.arquitectura.dummyserver.dummyserver.dto.ProductDTO;
 
 public class DB {
 

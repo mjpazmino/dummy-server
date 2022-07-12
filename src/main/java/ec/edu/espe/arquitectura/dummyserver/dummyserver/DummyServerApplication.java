@@ -8,6 +8,7 @@ public class DummyServerApplication {
 
 	public static void main(String[] args) {
 		System.err.println("Antes de Init111");
+		DB.initializer();
 		SpringApplication.run(DummyServerApplication.class, args);
 	}
 
